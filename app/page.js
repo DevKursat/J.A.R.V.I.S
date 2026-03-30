@@ -300,9 +300,16 @@ export default function Home() {
               tüm bağımlılıklar otomatik kurulur ve JARVIS başlatılır.
             </p>
 
-            <button className="download-btn" onClick={handleDownload} id="download-button">
+            <a 
+              className="download-btn" 
+              href="https://github.com/DevKursat/J.A.R.V.I.S/archive/refs/heads/main.zip" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              id="download-button"
+              style={{ display: 'inline-flex', textDecoration: 'none', alignItems: 'center', justifyContent: 'center' }}
+            >
               {Icons.download} Hemen İndir (.zip)
-            </button>
+            </a>
 
             <div className="download-info">
               <div className="download-info-item">
